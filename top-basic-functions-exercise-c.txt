@@ -1,0 +1,17 @@
+** start of script.js **
+
+// Basic Functions Exercise C
+
+function capitalize(str) {
+  if (str.length === 0) return "";
+  return str[0].toUpperCase() + str.slice(1);
+}
+
+// Example test cases
+console.log(capitalize("hello"));    // Expected: "Hello"
+console.log(capitalize("world"));    // Expected: "World"
+console.log(capitalize(""));         // Expected: ""
+
+
+** end of script.js **
+

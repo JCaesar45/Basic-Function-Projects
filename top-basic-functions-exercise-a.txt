@@ -1,0 +1,20 @@
+** start of script.js **
+
+// Basic Functions Exercise A
+
+function addOrSubtract(num) {
+  if (num < 10) {
+    return num + 7;
+  } else {
+    return num - 3;
+  }
+}
+
+// Example test cases
+console.log(addOrSubtract(5));   // Expected output: 12
+console.log(addOrSubtract(10));  // Expected output: 7
+console.log(addOrSubtract(15));  // Expected output: 12
+
+
+** end of script.js **
+

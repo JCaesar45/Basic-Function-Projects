@@ -1,0 +1,15 @@
+** start of script.js **
+
+// Basic Functions Exercise B
+
+function multiply(a, b) {
+  return a * b;
+}
+
+// Example test cases
+console.log(multiply(3, 4));   // Expected output: 12
+console.log(multiply(-2, 5));  // Expected output: -10
+console.log(multiply(0, 100)); // Expected output: 0
+
+** end of script.js **
+

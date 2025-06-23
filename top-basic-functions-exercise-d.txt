@@ -1,0 +1,18 @@
+** start of script.js **
+
+// Basic Functions Exercise D
+
+function lastLetter(str) {
+  if (str.length === 0) return "";
+  return str[str.length - 1];
+}
+
+// Example test cases
+console.log(lastLetter("hello"));   // Expected: "o"
+console.log(lastLetter("world"));   // Expected: "d"
+console.log(lastLetter("A"));       // Expected: "A"
+console.log(lastLetter(""));        // Expected: ""
+
+
+** end of script.js **
+
